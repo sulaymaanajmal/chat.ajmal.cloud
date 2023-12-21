@@ -44,3 +44,16 @@ button {
 button:hover {
     background-color: #45a049; /* Darker green on hover */
 }
+
+input {
+    margin-right: 3px; /* Keep around 3px spacing between the input field and button */
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Add a placeholder style */
+input::placeholder {
+    color: #aaa; /* Adjust the placeholder text color */
+}
