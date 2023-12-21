@@ -7,6 +7,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIO(server);
 
+// Serve static files from the 'public' directory
 app.use(express.static(path.join(__dirname, '../public')));
 
 io.on('connection', (socket) => {
