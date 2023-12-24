@@ -39,8 +39,7 @@ form {
     justify-content: space-between;
     position: sticky; /* Added: Make the form sticky */
     bottom: 0; /* Added: Stick the form to the bottom */
-    background-color: #f2f2f2; /* Added: Set background color for the form */
-    padding: 10px; /* Added: Add padding to the form */
+    padding: 0px; /* Added: Add padding to the form */
 }
 
 input {
