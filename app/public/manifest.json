@@ -1,0 +1,34 @@
+{
+  "name": "chat.ajmal.cloud",
+  "short_name": "Chat",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#3f51b5",
+  "icons": [
+    {
+      "src": "icons/Logo 1.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/Logo 1.png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "icons/Logo 1.png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "icons/Logo 1.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/Logo 1.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

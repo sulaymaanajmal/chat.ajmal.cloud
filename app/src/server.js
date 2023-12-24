@@ -9,6 +9,8 @@ const io = socketIO(server);
 
 // Serve static files from the 'public' directory
 app.use(express.static(path.join(__dirname, '../public')));
+app.use(express.static('public'));
+app.use('/app', express.static(path.join(__dirname, '../app')));
 
 io.on('connection', (socket) => {
     console.log('a user connected');
