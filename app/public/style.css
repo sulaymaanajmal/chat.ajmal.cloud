@@ -2,11 +2,27 @@ body {
     font-family: Arial, sans-serif;
     margin: 20px;
     background-color: #f0f8ea; /* Pale green background color */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Updated: Align items to the start */
+    justify-content: flex-start; /* Updated: Justify content to the start */
+    min-height: calc(100vh - 40px); /* Updated: Changed height to min-height */
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
 }
 
 #messages {
     list-style-type: none;
     padding: 0;
+    flex: 1;
+    max-width: 100%;
+    overflow-y: auto; /* Updated: Changed overflow-y to auto */
 }
 
 #messages li {
@@ -18,9 +34,13 @@ body {
 }
 
 form {
-    margin-top: 20px;
+    margin-top: auto;
     display: flex;
     justify-content: space-between;
+    position: sticky; /* Added: Make the form sticky */
+    bottom: 0; /* Added: Stick the form to the bottom */
+    background-color: #f2f2f2; /* Added: Set background color for the form */
+    padding: 10px; /* Added: Add padding to the form */
 }
 
 input {
@@ -56,4 +76,26 @@ input {
 /* Add a placeholder style */
 input::placeholder {
     color: #aaa; /* Adjust the placeholder text color */
+}
+
+a {
+    color: blue;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  .link {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #58ca5b;
+  }
+  
+  .link-1:hover {
+    background-color: hsl(122, 39%, 41%);
+    color: white;
+  }
+
+footer {
+    text-align: center; /* Added: Center align the content */
+    padding: 10px; /* Added: Add padding to the footer */
 }
